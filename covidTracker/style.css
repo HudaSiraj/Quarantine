@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  background: rgb(206, 221, 204);
+}
+
+h1,
+h2 {
+  font-family: "Merriweather", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 250%;
+  color: rgb(54, 59, 57);
+}
+
+.title {
+  background: rgb(143, 168, 156);
+  padding: 30px;
+  width: 100%;
+}
+
+.subtitle {
+  padding: 20px;
+  font-size: 150%;
+  animation-name: subtitle-fade;
+  animation-duration: 0.75s;
+  animation-timing-function: ease-in;
+}
+
+div {
+  padding: 20px;
+}
+
+.stats-container {
+  text-align: center;
+  float: right;
+  display: inline-block;
+}
+.location-container {
+  display: inline-block;
+}
+
+.data-container {
+  background-color: rgb(227, 241, 221);
+  border-radius: 20px;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+
+h4 {
+  font-size: 85%;
+  color: rgb(143, 168, 156);
+  font-family: "Merriweather", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+}
+
+.footer {
+  font-family: "Merriweather", sans-serif;
+  bottom: 0;
+  font-size: 75%;
+  padding: 5px;
+  margin-top: 13px;
+  animation-name: subtitle-fade;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+}
+
+#country {
+  font-size: 30px;
+}
+
+a {
+  color: rgb(20, 20, 20);
+}
+
+@keyframes subtitle-fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+.home {
+  margin-bottom: 1rem;
+  margin-left: 45rem;
+  margin-top: 1rem;
+  padding: 1rem 4rem;
+  background: rgb(42, 74, 87);
+  border: none;
+  color: rgb(202, 219, 213);
+  font-family: "Merriweather", sans-serif;
+  font-size: 20px;
+  width: 20%;
+  border-radius: 10px;
+}
